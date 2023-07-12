@@ -1,0 +1,79 @@
+yan@RO:~/catkin_ws/src$ history 
+    1  ls
+    2  git clone https://github.com/northernsea15/ROS_L.git
+    3  sudo git clone https://github.com/northernsea15/ROS_L.git
+    4  ls 
+    5  cd <input directory here without these brackets> 
+    6  sudo git clone https://github.com/northernsea15/ROS_L.git
+    7  sudo git clone https://github.com/northernsea15/
+    8  sudo git clone https://github.com/northernsea15/Learn.git
+    9  apt-get install git
+   10  sudo apt-get install git
+   11  sudo add-apt-repository ppa:git-core/ppa # apt update; apt install git
+   12  yum install git
+   13  dnf install git
+   14  sudo dnf install git
+   15  emerge --ask --verbose dev-vcs/git
+   16  apt-get install git
+   17  sudo apt-get install git
+   18  add-apt-repository ppa:git-core/ppa
+   19  sudo add-apt-repository ppa:git-core/ppa
+   20  sudo apt update; apt install git
+   21  sudo E: 无法打开锁文件 /var/lib/dpkg/lock-frontend - open (13: 权限不够)
+   22  E: 无法获取 dpkg 前端锁 (/var/lib/dpkg/lock-frontend)，请查看您是否正以 root 用户运行？
+   23  sudoapt update; sudo apt install git
+   24  sudo apt update
+   25  sudo apt install git
+   26  dnf install git
+   27  yum install git
+   28  apt-get install build-essential
+   29  sudo apt-get install build-essential
+   30  sudo apt-get install yum
+   31  apt-get install git
+   32  sudo apt-get install git
+   33  sudo emerge --ask --verbose dev-vcs/git
+   34  sudo emerge -pretend
+   35  sudo apt-get emerge
+   36  where emerge
+   37  apt-get emerge
+   38  emerge
+   39  sudo apt update
+   40  sudo apt install git
+   41  git --version
+   42  git version 2.25.1
+   43  sudo apt-get install git-cola
+   44  sudo git clone https://github.com/ANYbotics/elevation_mapping.git
+   45  ls
+   46  cp elevation_mapping/ workspace/ -rf
+   47  cd /
+   48  ls
+   49  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+   50  sudo apt install curl # if you haven't already installed curl
+   51  y
+   52  Y
+   53  sudo apt install curl # if you haven't already installed curl
+   54  sudo apt update
+   55  sudo rm /var/cache/apt/archives/lock
+   56  sudo rm /var/lib/dpkg/lock
+   57  sudo apt-get update
+   58  sudo dpkg --configure -a
+   59  sudo apt install ros-noetic-desktop-full
+   60  sudo apt install curl # if you haven't already installed curl
+   61  curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+   62  sudo apt update
+   63  sudo apt install ros-noetic-desktop-full
+   64  sudo apt install ros-noetic-desktop
+   65  sudo apt install ros-noetic-ros-base
+   66  sudo apt install ros-noetic-PACKAGE
+   67  udo apt install ros-noetic-PACKAGE
+   68  echo :source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+   69  echo :source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+   70  source ~/.bashrc
+   71  echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+   72  source ~/.bashrc
+   73  git clone https://github.com/ANYbotics/kindr_ros.git
+   74  git clone https://github.com/ANYbotics/message_logger.git
+   75  sudo apt-get install ros-noetic-pcl_ros
+   76  sudo apt-get install ros-noetic-pcl-ros
+   77  history 
+yan@RO:~/catkin_ws/src$ 

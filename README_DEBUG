@@ -1,0 +1,33 @@
+1、八分钟入门的ros代码，
+#include <ros/ros.h>
+
+int main(int argc,char** argv){
+    ros::init(argc,argv,"example");
+
+    ros::NodeHandle nh;
+
+    std::cout<<"hello ros!"<<std::endl;
+
+    return 0;
+}
+
+
+在编译的过程出现：
+/home/yan/wp_start/src/example/src/example.cpp:1:10: fatal error: ros/ros.h: 没有那个文件或目录
+    1 | #include <ros/ros.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+make[2]: *** [example/CMakeFiles/example_node.dir/build.make:63：example/CMakeFiles/example_node.dir/src/example.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:404：example/CMakeFiles/example_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2
+Invoking "make -j16 -l16" failed
+这个错误
+原因分析：应该是没有找到这个文件
+在cmakelist里面添加两行：
+find_package(catkin  REQUIRED COMPONENTS
+  roscpp
+)
+
+include_directories(include ${catkin_INCLUDE_DIRS} )
+保存后编译，问题解决
+

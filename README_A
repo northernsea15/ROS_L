@@ -77,3 +77,20 @@ yan@RO:~/catkin_ws/src$ history
    76  sudo apt-get install ros-noetic-pcl-ros
    77  history 
 yan@RO:~/catkin_ws/src$ 
+
+
+
+#载入ros头文件
+include <ros/ros.h>
+#主函数入口，传入参数
+int main(int argc,char**argv)
+{
+    #rosinit语句初始化ros节点,双引号内为节点名
+    ros::init(argc,argv,"example");
+    #这两句ros语句是一般程序必须的，照着写就好,创建句柄
+    ros::NodeHandle nh;
+    #输出helloworld
+    std::cout<<"hello ros!"<<std::endl;
+    return 0;
+}
+#第四步，指定编译规则，这一步只需要你在
